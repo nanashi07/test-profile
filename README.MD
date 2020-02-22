@@ -65,7 +65,7 @@ Maven profile is configured in `pom.xml` and only works for maven command such a
                     <configuration>
                         <!-- include all test -->
                         <includes>
-                            <include>*/*.java</include>
+                            <include>**/*.java</include>
                         </includes>
                     </configuration>
                 </plugin>

@@ -115,7 +115,7 @@
                         <configuration>
                             <!-- include all test -->
                             <includes>
-                                <include>*/*.java</include>
+                                <include>**/*.java</include>
                             </includes>
                         </configuration>
                     </plugin>
