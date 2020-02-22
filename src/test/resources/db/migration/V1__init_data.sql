@@ -1,0 +1,1 @@
+INSERT INTO experimental.user (id, username, email, crate_time, update_time) VALUES (1, 'bruce.tsai', 'bruce.tsai@email.com', '2020-02-22 16:16:36', '2020-02-22 16:16:42');
