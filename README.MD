@@ -2,6 +2,20 @@
 
 Main purpose is for what developers can write pure unit test without environment configuration and also can run integration/auto test for advanced test.
 
+## Run test
+
+There are profile `unit` and `integration` in this project. `integration` required a database connection for test, this could use `docker-compose.yml` file for configuration, and `unit` doesn't need anything, it just runs.
+
+```shell script
+# run unit test (deafult profile)
+mvn clean test
+# run unit test
+mvn clean test -Punit
+
+# run integration test
+mvn clean test -Pintegration
+```
+
 ## Profiles
 
 There are two kind of profiles. One is `maven profile` and another is `spring boot profile`. Need to understand the difference of these two profile then get the correct way to run test.
