@@ -100,7 +100,3 @@ public class FlywayConfig {
 
 }
 ```
-
-### Intellij IDEA support
-
-Since IDEA run unit test with it's own way (not depend on maven), it's difficult to handle different kind of test concept. When running a single test, it could add `SPRING_PROFILES_ACTIVE` environment variable to select the profile we want, but if we attempt run all test for a project, this will mix different type of test and than may cause failed for some.
